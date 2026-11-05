@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>เที่ยวเกาะหลีเป๊ะ.com — มัลดีฟส์แห่งอันดามัน | ทัวร์ ที่พัก เรือ ร้านอาหาร</title>
+  <meta name="description" content="ศูนย์รวมข้อมูลท่องเที่ยวเกาะหลีเป๊ะ จังหวัดสตูล แพ็คเกจทัวร์ ที่พัก ตั๋วเรือ-เช่าเรือ ร้านอาหาร และรีวิวจริงจากนักท่องเที่ยว" />
+  <meta name="site-base" content="auto" />
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin />
+  <link rel="dns-prefetch" href="https://images.pexels.com" />
+  <link rel="preload" as="image" href="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1600" fetchpriority="high" />
+  <link rel="stylesheet" href="css/style.css?v=lipe2" />
+</head>
+<body class="layout-mockup">
+
+  <!-- ===================== HEADER (mockup: single sticky bar) ===================== -->
+  <header class="site-header" id="nav">
+    <div class="container site-header__inner">
+      <a href="#home" class="brand brand--header">
+        <span class="brand__logo"><span class="brand__koh">KOH</span><span class="brand__muk">LIPE</span></span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" type="button" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="navMenu">
+        <i data-lucide="menu" class="icon nav__toggle-icon nav__toggle-icon--open"></i>
+        <i data-lucide="x" class="icon nav__toggle-icon nav__toggle-icon--close"></i>
+      </button>
+
+      <nav class="nav__menu site-header__menu" id="navMenu">
+        <a href="#home">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับเกาะ</a>
+        <a href="#activities">กิจกรรม</a>
+        <a href="#hotels">ที่พัก</a>
+        <a href="#restaurants">ร้านอาหาร</a>
+        <a href="#boats">ข้อมูลการเดินทาง</a>
+        <a href="contact.html">ติดต่อ</a>
+      </nav>
+
+      <div class="site-header__cta">
+        <a href="contact.html" class="btn btn--ghost-dark btn--sm site-header__btn">
+          <i data-lucide="mail" class="icon"></i>
+          <span class="site-header__btn-label">ติดต่อ</span>
+          <span class="site-header__btn-label site-header__btn-label--short">ติดต่อ</span>
+        </a>
+        <a href="tel:0910401234" class="btn btn--green btn--sm site-header__btn">
+          <i data-lucide="phone" class="icon"></i>
+          <span class="site-header__btn-label">โทรหาเรา</span>
+          <span class="site-header__btn-label site-header__btn-label--short">โทร</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== 1. HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero__slides" id="heroSlides">
+      <div class="hero__slide is-active" data-bg="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1600" style="background-image:url('https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=1600')"></div>
+      <div class="hero__slide" data-bg="https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1600"></div>
+      <div class="hero__slide" data-bg="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1600"></div>
+      <div class="hero__slide" data-bg="https://images.pexels.com/photos/14573822/pexels-photo-14573822.jpeg?auto=compress&cs=tinysrgb&w=1400"></div>
+      <div class="hero__slide" data-bg="https://images.pexels.com/photos/1647064/pexels-photo-1647064.jpeg?auto=compress&cs=tinysrgb&w=1400"></div>
+    </div>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">จังหวัดสตูล · ทะเลอันดามัน</p>
+      <h1 class="hero__title">Koh Lipe</h1>
+      <p class="hero__subtitle" data-setting="hero_caption">เกาะหลีเป๊ะ · มัลดีฟส์แห่งอันดามัน</p>
+      <div class="hero__actions">
+        <a href="#activities" class="btn btn--primary btn--lg">จุดเด่นท่องเที่ยว</a>
+        <a href="#about" class="btn btn--ghost btn--lg">เกี่ยวกับเกาะ</a>
+      </div>
+    </div>
+
+    <button class="hero__arrow hero__arrow--prev" id="heroPrev" aria-label="ก่อนหน้า"><i data-lucide="chevron-left" class="icon"></i></button>
+    <button class="hero__arrow hero__arrow--next" id="heroNext" aria-label="ถัดไป"><i data-lucide="chevron-right" class="icon"></i></button>
+    <div class="hero__dots" id="heroDots"></div>
+  </section>
+
+  <!-- ===================== 2. ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="container about__layout">
+      <div class="about__copy reveal">
+        <p class="about__kicker">เกี่ยวกับเกาะหลีเป๊ะ</p>
+        <h2 class="about__heading">เกาะหลีเป๊ะ</h2>
+        <p class="about__lead">
+          เกาะหลีเป๊ะ จังหวัดสตูล อยู่ในอุทยานแห่งชาติตะรุเตา น้ำทะเลสีเทอร์ควอยซ์ หาดทรายขาว
+          และวอล์กกิ้งสตรีทยามเย็นทำให้ที่นี่ได้ชื่อว่ามัลดีฟส์แห่งอันดามัน เดินเที่ยวหาดพัทยา
+          หาดซันไรส์ และหาดซันเซ็ตได้ทั้งวัน แล้วต่อเรือไปเกาะหินงาม เกาะอาดัง และเกาะราวี
+        </p>
+
+        <div class="about__features">
+          <div class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true"><i data-lucide="waves" class="icon"></i></span>
+            <span>น้ำใส</span>
+          </div>
+          <div class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true"><i data-lucide="sun" class="icon"></i></span>
+            <span>หาดทรายขาว</span>
+          </div>
+          <div class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true"><i data-lucide="users" class="icon"></i></span>
+            <span>ชาวเล</span>
+          </div>
+          <div class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true"><i data-lucide="compass" class="icon"></i></span>
+            <span>เกาะฮอปปิ้ง</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__photos reveal">
+        <figure class="about__polaroid about__polaroid--main">
+          <img src="https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=720" alt="น้ำใสเกาะหลีเป๊ะ" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="about__polaroid about__polaroid--side">
+          <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&w=480" alt="หาดทรายขาวเกาะหลีเป๊ะ" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 3. ACTIVITIES ===================== -->
+  <section class="section activities" id="activities">
+    <div class="container">
+      <h2 class="heading heading--accent reveal">ทำอะไรบนเกาะหลีเป๊ะ</h2>
+      <div class="filter-pills reveal" id="activityFilters" role="tablist" aria-label="หมวดกิจกรรม">
+        <button type="button" class="filter-pill is-active" data-filter="all">ทั้งหมด</button>
+        <button type="button" class="filter-pill" data-filter="dive">ดำน้ำ</button>
+        <button type="button" class="filter-pill" data-filter="sight">ท่องเที่ยว</button>
+        <button type="button" class="filter-pill" data-filter="community">ชุมชน</button>
+        <button type="button" class="filter-pill" data-filter="nature">ธรรมชาติ</button>
+        <button type="button" class="filter-pill" data-filter="stay">ที่พัก</button>
+      </div>
+      <div class="cards-grid cards-grid--activity" id="activityGrid"></div>
+      <div class="section__cta reveal">
+        <a href="#tours" class="btn btn--primary">ดูแพ็คเกจทัวร์</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 4. TOUR PACKAGES ===================== -->
+  <section class="section tours" id="tours">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2 class="heading"><i data-lucide="briefcase" class="icon heading__icon heading__icon--accent"></i> แพ็คเกจทัวร์</h2>
+      </div>
+      <p class="section__sub reveal">
+        แพ็คเกจทัวร์ออกจากเกาะหลีเป๊ะ ดำน้ำเกาะอาดัง–ราวี ชมเกาะหินงาม
+        ล่องซันเซ็ต และเกาะฮอปปิ้งในอุทยานตะรุเตา เลือกโปรแกรมได้ตามจำนวนวัน
+      </p>
+      <div class="cards-rail" id="tourGrid"></div>
+      <div class="section__cta reveal">
+        <a href="#" class="btn btn--primary">ดูโปรแกรมทั้งหมด</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 5. BOAT TICKETS ===================== -->
+  <section class="section boats" id="boats">
+    <div class="container">
+      <h2 class="heading reveal">ตั๋วเรือ · เช่าเรือ</h2>
+      <p class="section__sub reveal">สปีดโบ๊ทท่าเรือปากบารา–เกาะหลีเป๊ะ และเรือรอบเกาะ</p>
+
+      <div class="boats__split reveal">
+        <div class="schedule">
+          <div class="schedule__title">ตารางเรือ · ท่าเรือปากบารา — เกาะหลีเป๊ะ</div>
+          <table class="schedule__table">
+            <thead>
+              <tr>
+                <th>เส้นทาง</th>
+                <th>ออก</th>
+                <th>ถึง</th>
+                <th>ราคา / ท่าน</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ท่าเรือปากบารา → เกาะหลีเป๊ะ</td>
+                <td>09.30 น.</td>
+                <td>~1.5 ชม.</td>
+                <td class="schedule__price">฿650</td>
+              </tr>
+              <tr>
+                <td>เกาะหลีเป๊ะ → ท่าเรือปากบารา</td>
+                <td>09.30 น.</td>
+                <td>~1.5 ชม.</td>
+                <td class="schedule__price">฿650</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="schedule__note">เหมาเรือสปีดโบ๊ทส่วนตัว ปากบารา–หลีเป๊ะ ตามขนาดเรือและจำนวนคน</div>
+          <div class="boats__actions">
+            <a href="#boats" class="btn btn--ghost-dark">ตารางเต็ม</a>
+            <a href="tel:0910401234" class="btn btn--green"><i data-lucide="phone" class="icon"></i> จอง / สำรอง</a>
+          </div>
+        </div>
+
+        <div class="boats__rent">
+          <h3 class="boats__rent-title">บริการเช่าเรือ</h3>
+          <ul class="boats__checklist">
+            <li><i data-lucide="check" class="icon"></i> สปีดโบ๊ทปากบารา–หลีเป๊ะ</li>
+            <li><i data-lucide="check" class="icon"></i> เรือหางยาวรอบเกาะและตกหมึก</li>
+            <li><i data-lucide="check" class="icon"></i> ดำน้ำตื้นเกาะอาดัง–ราวี</li>
+            <li><i data-lucide="check" class="icon"></i> รับจากท่าเรือปากบาราหรือหาดใหญ่</li>
+            <li><i data-lucide="check" class="icon"></i> จองผ่านโทร / LINE ได้ทันที</li>
+          </ul>
+          <div class="boats__actions">
+            <a href="tel:0910401234" class="btn btn--call"><i data-lucide="phone" class="icon"></i> 091-0401234</a>
+            <a href="#" class="btn btn--green" data-setting-href="line"><i data-lucide="message-circle" class="icon"></i> จองผ่านไลน์</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards-grid cards-grid--4" id="boatGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== 6. HOTELS ===================== -->
+  <section class="section hotels" id="hotels">
+    <div class="container">
+      <h2 class="heading reveal">ที่พักบนเกาะหลีเป๊ะ</h2>
+      <p class="section__sub reveal">รวบรวมที่พักโรงแรมรีสอร์ทและโฮมสเตย์บนเกาะหลีเป๊ะ ให้ลูกค้าเลือกได้ตามที่ต้องการ</p>
+      <div class="filter-pills reveal" id="hotelFilters" role="tablist" aria-label="ประเภทที่พัก">
+        <button type="button" class="filter-pill is-active" data-hotel-filter="all">ทั้งหมด</button>
+        <button type="button" class="filter-pill" data-hotel-filter="resort">รีสอร์ท</button>
+        <button type="button" class="filter-pill" data-hotel-filter="homestay">โฮมสเตย์</button>
+        <button type="button" class="filter-pill" data-hotel-filter="bungalow">บังกาโล</button>
+      </div>
+      <div class="cards-grid cards-grid--4" id="hotelGrid"></div>
+
+      <div class="mini-slider-wrap reveal" id="hotelMiniSliderWrap">
+        <button type="button" class="mini-slider__arrow mini-slider__arrow--prev" aria-label="เลื่อนซ้าย">
+          <i data-lucide="chevrons-left" class="icon"></i>
+        </button>
+        <div class="mini-slider" id="hotelMiniSlider">
+          <div class="mini-slider__viewport" id="hotelMiniViewport">
+            <div class="mini-slider__track" id="hotelMiniTrack"></div>
+          </div>
+        </div>
+        <button type="button" class="mini-slider__arrow mini-slider__arrow--next" aria-label="เลื่อนขวา">
+          <i data-lucide="chevrons-right" class="icon"></i>
+        </button>
+      </div>
+
+      <div class="section__cta reveal">
+        <a href="#" class="btn btn--primary">ดูที่พักทั้งหมด</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 7. REVIEWS ===================== -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <h2 class="heading heading--accent reveal">รีวิวจริง</h2>
+      <div class="cards-rail cards-rail--reviews" id="reviewGrid"></div>
+      <div class="section__cta reveal">
+        <a href="member/login.php" class="btn btn--primary" id="reviewAuthCta">ล็อคอิน สำหรับรีวิว</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 8. RESTAURANTS ===================== -->
+  <section class="section restaurants" id="restaurants">
+    <div class="container">
+      <h2 class="heading heading--accent reveal"><i data-lucide="utensils" class="icon heading__icon heading__icon--accent"></i> ร้านอาหารบนเกาะหลีเป๊ะ</h2>
+      <div class="cards-grid" id="restaurantGrid"></div>
+      <div class="section__cta reveal">
+        <a href="#" class="btn btn--primary">ดูร้านอาหารทั้งหมด</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 9. CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__col reveal">
+          <h3 class="contact__title" data-setting="pier_name">ท่าเรือปากบารา</h3>
+          <div class="contact__map">
+            <iframe
+              id="contactMap"
+              title="ท่าเรือปากบารา จังหวัดสตูล"
+              data-src="https://maps.google.com/maps?q=6.8518,99.7285&hl=th&z=16&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen=""></iframe>
+            <a class="contact__map-link" data-setting-href="map" href="https://www.google.com/maps/search/?api=1&query=6.8518,99.7285" target="_blank" rel="noopener">เปิดใน Google Maps</a>
+          </div>
+        </div>
+
+        <div class="contact__col reveal">
+          <h4 class="contact__sub">มั่นใจได้ทุกทริป</h4>
+          <p class="contact__desc">ออฟฟิศอยู่ที่ท่าเรือปากบารา อำเภอละงู เปิดบริการทุกวัน นัดมาสอบถามตั๋วเรือและแพ็คเกจทัวร์ก่อนออกเดินทางได้</p>
+          <ul class="contact__list">
+            <li><i data-lucide="map-pin" class="icon"></i><span>ที่ตั้งออฟฟิศ<br><small data-setting="office_address">ท่าเรือปากบารา หมู่ 5 ตำบลปากน้ำ อำเภอละงู จังหวัดสตูล 91110</small></span></li>
+            <li><i data-lucide="clock" class="icon"></i><span>เวลาทำการ<br><small data-setting="office_hours">เปิดบริการทุกวัน 07:00 – 21:00 น.</small></span></li>
+            <li><i data-lucide="phone" class="icon"></i><span>โทรหาเรา<br><small data-setting="boat_contact_1">คุณอเล็กซ์ 091-0401234</small></span></li>
+            <li><i data-lucide="message-circle" class="icon"></i><span>LINE Official<br><small data-setting="contact_line">@kohlipe</small></span></li>
+          </ul>
+          <div class="contact__btns">
+            <a href="https://line.me/R/ti/p/@kohlipe" data-setting-href="line" class="btn btn--green" target="_blank" rel="noopener"><i data-lucide="message-circle" class="icon"></i> ADD LINE</a>
+            <a href="contact.html" class="btn btn--ghost-dark">ดูข้อมูลติดต่อ</a>
+          </div>
+        </div>
+
+        <div class="contact__col contact__col--van reveal">
+          <h3 class="contact__title">ข้อมูลการเดินทาง</h3>
+          <div class="contact__van" data-bg="https://images.pexels.com/photos/15804640/pexels-photo-15804640.jpeg?auto=compress&cs=tinysrgb&w=640">
+            <span class="contact__van-badge"><i data-lucide="car-taxi-front" class="icon"></i> TAXI</span>
+          </div>
+          <p class="contact__desc">รถตู้รับจากสนามบินหาดใหญ่หรือตัวเมืองสตูล ไปท่าเรือปากบารา แล้วต่อสปีดโบ๊ทเข้าเกาะหลีเป๊ะ</p>
+          <div class="contact__btns">
+            <a href="tel:0910401234" class="btn btn--call"><i data-lucide="phone" class="icon"></i> โทร 091-0401234</a>
+            <a href="https://line.me/R/ti/p/@kohlipe" class="btn btn--green" target="_blank" rel="noopener" data-setting-href="line"><i data-lucide="message-circle" class="icon"></i> จองผ่านไลน์</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__overlay"></div>
+    <div class="container footer__inner">
+      <div class="footer__col footer__col--brand">
+        <div class="brand__logo brand__logo--lg"><span class="brand__koh">KOH</span><span class="brand__muk">LIPE</span></div>
+        <p class="footer__tag" data-setting="footer_tagline">เกาะหลีเป๊ะ มัลดีฟส์แห่งอันดามัน — ศูนย์รวมทัวร์ ที่พัก เรือ และร้านอาหาร</p>
+        <nav class="social social--footer">
+          <a href="#" aria-label="Facebook" class="social__link s-fb"><svg class="social__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12S0 5.446 0 12.073c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="#" aria-label="YouTube" class="social__link s-yt"><svg class="social__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          <a href="#" aria-label="TikTok" class="social__link s-tt"><svg class="social__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <h5 class="footer__h">เมนูด่วน</h5>
+        <ul>
+          <li><a href="#about">เกี่ยวกับเกาะ</a></li>
+          <li><a href="#activities">กิจกรรม</a></li>
+          <li><a href="#tours">แพ็คเกจทัวร์</a></li>
+          <li><a href="#hotels">ที่พัก</a></li>
+          <li><a href="#restaurants">ร้านอาหาร</a></li>
+          <li><a href="#boats">ตั๋วเรือ</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5 class="footer__h">ติดต่อจอง</h5>
+        <ul class="footer__plain">
+          <li data-setting="tour_contact_1">คุณกิว 095-4404646</li>
+          <li data-setting="tour_contact_2">คุณทราย 095-4404747</li>
+          <li data-setting="boat_contact_1">คุณอเล็กซ์ 091-0401234</li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--news">
+        <h5 class="footer__h">รับข่าวสารท่องเที่ยว</h5>
+        <form class="footer__news" action="#" method="post" onsubmit="return false;">
+          <label class="visually-hidden" for="newsEmail">อีเมล</label>
+          <input id="newsEmail" type="email" name="email" placeholder="อีเมลของคุณ" autocomplete="email" />
+          <button type="submit" class="btn btn--primary">สมัคร</button>
+        </form>
+        <p class="footer__partner">ลงทะเบียนเป็นคู่ค้ากับเรา</p>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      Copyright 2010 เที่ยวเกาะหลีเป๊ะ.com © สงวนลิขสิทธิ์ตามกฎหมาย ห้ามนำไปทำซ้ำ หรือคัดลอกข้อมูลโดยไม่ได้รับอนุญาต
+    </div>
+  </footer>
+
+  <div class="gallery-lightbox" id="galleryLightbox" hidden>
+    <button type="button" class="gallery-lightbox__close" aria-label="ปิด"><i data-lucide="x" class="icon"></i></button>
+    <button type="button" class="gallery-lightbox__prev" aria-label="ก่อนหน้า"><i data-lucide="chevron-left" class="icon"></i></button>
+    <figure class="gallery-lightbox__figure">
+      <img class="gallery-lightbox__img" src="" alt="" />
+      <figcaption class="gallery-lightbox__caption"></figcaption>
+    </figure>
+    <button type="button" class="gallery-lightbox__next" aria-label="ถัดไป"><i data-lucide="chevron-right" class="icon"></i></button>
+  </div>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="กลับขึ้นบน"><i data-lucide="chevron-up" class="icon"></i></a>
+
+  <script src="js/main.js" defer></script>
+  <script src="https://unpkg.com/lucide@0.474.0/dist/umd/lucide.min.js" async></script>
+</body>
+</html>
